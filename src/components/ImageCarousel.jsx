@@ -41,7 +41,7 @@ const ImageCarousel = () => {
           />
         </div>
       </div>
-      <div className="flex lg:h-[400px] gap-6">
+      <div className="flex lg:h-[330px] gap-6">
         <ImageCard imageUrl="https://res.cloudinary.com/dv0oedkxm/image/upload/v1716137835/Portfolio/IMG_8079_2_vnorvo.jpg" imageText="@Cloud Study Jams - 2024" />
         <ImageCard imageUrl="https://res.cloudinary.com/dv0oedkxm/image/upload/v1716138468/Portfolio/IMG-20221124-WA0052_1_nxyajg.jpg" imageText="@GIST Coding Club - 2022" />
       </div>
