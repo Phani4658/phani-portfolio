@@ -1,4 +1,5 @@
 import Hero from "./components/Hero";
+import ImageCarousel from "./components/ImageCarousel";
 import Navbar from "./components/Navbar";
 
 const App = () => {
@@ -10,6 +11,7 @@ const App = () => {
         <Navbar />
         <Hero />
         </section>
+        <ImageCarousel />
       </div>
     </div>
   );
