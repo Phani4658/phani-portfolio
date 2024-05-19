@@ -14,9 +14,9 @@ const ImageCard = ({ imageUrl, imageText }) => {
         <div className="w-full h-full flex top-0 absolute items-center justify-center opacity-0 hover:opacity-100">
           <Link
             to=""
-            className="bg-white h-max z-20 rounded-full px-8 py-2 font-bold"
+            className="bg-white h-max z-20 rounded-full px-8 py-2 font-bold text-[8px] lg:text-base"
           >
-            <h1>{imageText}</h1>
+            {imageText}
           </Link>
         </div>
       </div>
