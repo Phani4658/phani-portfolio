@@ -2,7 +2,7 @@ const Hero = () => {
   return (
     <section className="flex flex-col items-center justify-center gap-5 lg:flex-row">
       <div className="w-full lg:w-1/2">
-        <h1 className="text-6xl font-extralight mb-10">Phani Peddapalem</h1>
+        <h1 className="text-5xl font-extralight mb-10 lg:text-6xl">Phani Peddapalem</h1>
         <h2 className="text-4xl font-semibold bg-gradient-to-r from-pink-300 via-slate-500 to-purple-800 bg-clip-text tracking-tight mb-3 text-transparent">
           Full Stack Developer
         </h2>
