@@ -2,7 +2,7 @@ import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 
 const Navbar = () => {
   return (
-    <nav className="mb-20 flex justify-between items-center py-6 text-white">
+    <nav className="pl-10 lg:pl-0 flex justify-between items-center py-6 text-white">
       <div className="items-center flex flex-shrink-0">
         <h1 className="text-2xl font-bold">Phani</h1>
       </div>
