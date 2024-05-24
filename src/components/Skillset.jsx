@@ -63,7 +63,7 @@ const SkillSet = [
 const Skillset = () => {
   return (
     <div className="py-14">
-      <h1 className="text-center font-bold text-2xl mb-10">My Skillset</h1>
+      <h1 className="text-center font-bold text-2xl lg:text-4xl mb-10">My Skillset</h1>
       <ul className="flex flex-wrap align-center mx-auto gap-y-10 justify-center lg:max-w-[1200px]">
         {SkillSet.map((skill) => (
           <SkillIcon details={skill} key={skill.language} />
