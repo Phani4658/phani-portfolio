@@ -69,7 +69,7 @@ const education = [
 
 const Experience = () => {
   return (
-    <div className="py-16 pl-10 lg:flex gap-10">
+    <div className="py-24 pl-10 lg:flex gap-10">
       <div className="flex-1">
         <section className="mb-3">
           <h2 className="text-2xl font-bold">Experience</h2>

@@ -4,8 +4,26 @@ const Hero = () => {
   return (
     <section className="flex-1 flex flex-col items-center justify-center gap-5 lg:flex-row">
       <div className="w-full text-center p-5 flex flex-col gap-3 lg:gap-8 md:p-0">
+        <h1 className="text-2xl md:text-5xl flex justify-center items-center  font-bold lg:text-6xl xl:text-8xl">
+          Coding with
+          <span>
+            <picture>
+              <source
+                srcSet="https://fonts.gstatic.com/s/e/notoemoji/latest/1f525/512.webp"
+                type="image/webp"
+              />
+              <img
+                src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f525/512.gif"
+                alt="🔥"
+                width="88"
+                height="88"
+              />
+            </picture>
+          </span>
+          Passion
+        </h1>
         <h1 className="text-2xl md:text-5xl  font-bold lg:text-6xl xl:text-8xl">
-          Coding with 🔥 Passion <br /> Creating with Purpose
+          Creating with Purpose
         </h1>
         <h2 className="text-2xl md:text-4xl lg:text-6xl font-semibold bg-gradient-to-r from-[#FC6400] to-[#fac000] bg-clip-text tracking-tight text-transparent">
           I&apos;m Phani
